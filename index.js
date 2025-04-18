@@ -6,7 +6,7 @@ let code3 = 120 % 81;
 
 let message = "The vault has been secured. The combination is: ";
 
-let codeA = "10-40-39";
+let codeA = code1 + " - " + code2 + " - " + code3;
 
 let codeB = `${code1}-${code2}-${code3}`;
 
